@@ -1,0 +1,2 @@
+clang -std=c++11 -c -o cppArgs.o cppArgs.cpp
+clang -std=c++11 -lstdc++ -o main.exe test.cpp cppArgs.o
